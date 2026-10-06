@@ -19,7 +19,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - uses: c-ehrlich/pr-brainrot@main
+      - uses: c-ehrlich/pr-brainrot@v1
         with:
           fish-api-key: ${{ secrets.FISH_API_KEY }}
           upload-token: ${{ secrets.BRAINROT_UPLOAD_TOKEN }}
